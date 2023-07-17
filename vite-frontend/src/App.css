@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+.App{
+  font-family: 'Poppins', sans-serif;
+}
+
+.LoginPage {
+  background-color: #c8d8c9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 50px;
+}
+
+.LoginPage h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.LoginPage input {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  width: 70%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.LoginPage button {
+  margin-bottom: 20px;
+  margin-left: 150px;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #538379;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .LoginPage {
+    width: 90%;
+  }
+}
+.RegisterPage {
+  background-color: #c8d8c9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 50px;
+}
+
+.RegisterPage h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.RegisterPage input {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  width: 70%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.RegisterPage button {
+  margin-bottom: 20px;
+  margin-left: 150px;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #538379;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .RegisterPage {
+    width: 90%;
+  }
+}
+
+.ask{
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 50px;
+}
+.ask button{
+  margin-top: 25px;
+  width: 70%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #374638;
+  color: white;
+  cursor: pointer;
+}
